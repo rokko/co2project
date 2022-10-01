@@ -11,7 +11,7 @@ import ABI from '../wallet/abi_co2.json'
 import Logo from "../media/logo.jpeg";
 import { Co2Listing } from "../co2listing";
 import {TheMission} from "../themission";
-import {co2contract, handleEthereum, injected, mumbaiRete} from "../wallet/wallet";
+import {co2contract, handleEthereum, injected, mumbaiRete, polygonRete} from "../wallet/wallet";
 import {useWeb3React} from "@web3-react/core";
 var Contract = require("web3-eth-contract");
 

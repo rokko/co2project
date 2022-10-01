@@ -10,7 +10,7 @@ export const mumbaiRete = {
     chainName: "Mumbai",
     nativeCurrency: {
         name: "Polygon Test",
-        symbol: "MAT",
+        symbol: "MATIC",
         decimals: 18,
     },
     rpcUrls: ["https://matic-mumbai.chainstacklabs.com"],
@@ -22,7 +22,7 @@ export const polygonRete = {
     chainName: "Polygon Mainnet",
     nativeCurrency: {
         name: "Polygon Mainnet",
-        symbol: "MAT",
+        symbol: "MATIC",
         decimals: 18,
     },
     rpcUrls: ["https://rpc-mainnet.maticvigil.com/"],
