@@ -19,6 +19,7 @@ import {
   polygonRete,
 } from "../wallet/wallet";
 import { useWeb3React } from "@web3-react/core";
+import { Footer } from "../footer";
 var Contract = require("web3-eth-contract");
 
 const Home = () => {
@@ -76,6 +77,7 @@ const Home = () => {
       </ContainerTitle>
       <Co2Listing />
       <TheMission />
+      <Footer />
     </ContainerHome>
   );
 };

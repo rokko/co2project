@@ -66,6 +66,10 @@ const Co2Listing = () => {
               />
             </Link>
           </div>
+          <input
+            style={{ width: "50px", height: "30px" }}
+            placeholder={"Num NFT"}
+          ></input>
 
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
 
@@ -93,6 +97,10 @@ const Co2Listing = () => {
               />
             </Link>
           </div>{" "}
+          <input
+            style={{ width: "50px", height: "30px" }}
+            placeholder={"Num NFT"}
+          ></input>
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
           <ButtonBuy onClick={() => Buy()}>BUY</ButtonBuy>
         </BoxNFT>

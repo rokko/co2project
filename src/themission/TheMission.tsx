@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import { TitleSection } from "../co2listing/Co2ListingStyled";
 
 const TheMission = () => {
-    return(
-        <>
-            <p>TheMission</p></>
-    )
-}
+  return (
+    <>
+      <TitleSection>The mission</TitleSection>
+    </>
+  );
+};
 
-export default TheMission
+export default TheMission;
