@@ -43,7 +43,7 @@ const Co2Listing = () => {
   };
   return (
     <>
-      <TitleSection>CO2 credits listing</TitleSection>
+      <TitleSection>CREDITI CO2</TitleSection>
       <ContainerBox>
         <BoxNFT>
           <img src={Albero} width={"80%"} />

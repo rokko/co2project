@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
     background: #96c93d; /* fallback for old browsers */
     background: -webkit-linear-gradient(#4CFFAE, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(#4CFFAE, #ffffff);
-    padding:3rem;
   }
   *{
     box-sizing: border-box;

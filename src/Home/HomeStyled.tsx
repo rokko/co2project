@@ -20,7 +20,10 @@ const ContainerTop = styled(Box)`
   padding: 5rem;
   display: flex;
   flex-direction: row;
+  width: 90%;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
 `;
 const ContainerTitle = styled(Box)`
   display: flex;
@@ -30,9 +33,10 @@ const ContainerTitle = styled(Box)`
   justify-content: center;
 `;
 const TitleHome = styled.p`
-  font-size: 80px;
-  color: darkgreen;
+  font-size: 85px;
+  color: black;
   font-weight: bold;
+  text-align: center;
 `;
 
 const BlueSpan = styled.span`
@@ -40,15 +44,23 @@ const BlueSpan = styled.span`
 `;
 
 const ButtonMetamask = styled.button`
-  background-color: darkgreen;
+  background-color: #3075ff;
   border-radius: 10px;
-  height: 40px;
-  width: 200px;
+  height: 50px;
+  width: 220px;
   font-weight: bold;
+  font-size: 20px;
   color: white;
   border: 1px solid #006400;
   -webkit-box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
   box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
+`;
+
+const SubtitleText = styled.p`
+  margin-top: -50px;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
 `;
 
 export {
@@ -58,4 +70,5 @@ export {
   TitleHome,
   BlueSpan,
   ButtonMetamask,
+  SubtitleText,
 };

@@ -5,8 +5,8 @@ import { ContainerObiettivo } from "./TheMissionStyled";
 const TheMission = () => {
   return (
     <>
-      <TitleSection>L'OBIETTIVO</TitleSection>
       <ContainerObiettivo>
+        <TitleSection>L'OBIETTIVO</TitleSection>
         <p>
           In un’ottica di eticità e di conservazione dell’ambiente nasce il
           progetto di realizzare dei veri e propri “polmoni verdi” che assorbano

@@ -1,9 +1,11 @@
 import React from "react";
 import {
+  BlueSpan,
   ButtonMetamask,
   ContainerHome,
   ContainerTitle,
   ContainerTop,
+  SubtitleText,
   TitleHome,
 } from "./HomeStyled";
 import ABI from "../wallet/abi_co2.json";
@@ -78,12 +80,13 @@ const Home = () => {
       <ContainerTitle>
         <TitleHome>
           Scopri, colleziona e<br />
-          scambia i tuoi Crediti CO2
+          scambia i tuoi <BlueSpan>Crediti CO2</BlueSpan>
         </TitleHome>
-        <p>
+        <SubtitleText>
           "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
+          <br />
           attività se vogliamo condurre una vita in salute e benessere sociale"
-        </p>
+        </SubtitleText>
       </ContainerTitle>
       <Co2Listing />
       <TheMission />
