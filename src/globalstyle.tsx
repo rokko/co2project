@@ -6,8 +6,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: Open-Sans, Helvetica, Sans-Serif, serif;
     height: 100%;
     background: #96c93d; /* fallback for old browsers */
-    background: -webkit-linear-gradient(#00b09b, #96c93d); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#00b09b, #96c93d);
+    background: -webkit-linear-gradient(#4CFFAE, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#4CFFAE, #ffffff);
     padding:3rem;
   }
   *{

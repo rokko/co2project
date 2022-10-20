@@ -1,7 +1,12 @@
 import React from "react";
+import { TitleSection } from "../co2listing/Co2ListingStyled";
 
 const Faq = () => {
-  return <p>Faq</p>;
+  return (
+    <>
+      <TitleSection>FAQ</TitleSection>
+    </>
+  );
 };
 
 export default Faq;
