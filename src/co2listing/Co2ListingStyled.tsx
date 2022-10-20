@@ -14,8 +14,10 @@ const BoxNFT = styled.div`
   box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
 `;
 const TitleSection = styled.p`
-  font-size: 28px;
-  color: darkgreen;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
 `;
 
 const TextNft = styled.p`

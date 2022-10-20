@@ -20,6 +20,12 @@ import {
 } from "../wallet/wallet";
 import { useWeb3React } from "@web3-react/core";
 import { Footer } from "../footer";
+import { Problemi } from "../problemi";
+import { Soluzione } from "../soluzione";
+import { Crediti } from "../crediti";
+import { AreeImpatto } from "../areeimpatto";
+import { Faq } from "../faq";
+import { Partner } from "../partner";
 var Contract = require("web3-eth-contract");
 
 const Home = () => {
@@ -71,12 +77,23 @@ const Home = () => {
       </ContainerTop>
       <ContainerTitle>
         <TitleHome>
-          Discover, collect, and <br />
-          sell your CO2 credits
+          Scopri, colleziona e<br />
+          scambia i tuoi Crediti CO2
         </TitleHome>
+        <p>
+          "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
+          attività se vogliamo condurre una vita in salute e benessere sociale"
+        </p>
       </ContainerTitle>
       <Co2Listing />
       <TheMission />
+      <Problemi />
+      <Soluzione />
+      <Crediti />
+      <AreeImpatto />
+      <Faq />
+      <Partner />
+
       <Footer />
     </ContainerHome>
   );

@@ -12,6 +12,9 @@ const ContainerHome = styled.div`
     #96c93d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 const ContainerTop = styled(Box)`
   padding: 5rem;
@@ -21,6 +24,7 @@ const ContainerTop = styled(Box)`
 `;
 const ContainerTitle = styled(Box)`
   display: flex;
+  flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
