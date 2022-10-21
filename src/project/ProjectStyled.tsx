@@ -24,18 +24,29 @@ const ButtonMetamaskProject = styled.button`
   box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
 `;
 
+const TestoProgetto = styled.p`
+  font-size: 24px;
+`;
 const ContainerProject = styled.div`
-  gap: 3rem;
+  background: rgb(76, 255, 174);
+  background: linear-gradient(
+    180deg,
+    rgba(76, 255, 174, 1) 0%,
+    rgba(255, 255, 255, 1) 44%,
+    rgba(255, 255, 255, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10rem;
 `;
 
 const BoxText = styled.div`
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
 `;
 
 const BoxProject = styled.div`
@@ -52,4 +63,5 @@ export {
   ContainerProject,
   BoxProject,
   BoxText,
+  TestoProgetto,
 };

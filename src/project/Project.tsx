@@ -6,18 +6,24 @@ import {
   ContainerProject,
   BoxProject,
   BoxText,
+  TestoProgetto,
 } from "./ProjectStyled";
 import {
   BoxNFT,
   ButtonBuy,
   TextNft,
   TextPrice,
+  TitleSection,
 } from "../co2listing/Co2ListingStyled";
 import Albero from "../media/albero.png";
 import { Link } from "react-router-dom";
 import { useWeb3React } from "@web3-react/core";
 import { connect } from "http2";
 import { mumbaiRete, injected } from "../wallet/wallet";
+import { ButtonMetamask, ContainerTop } from "../Home/HomeStyled";
+import Logo from "../media/logo.png";
+import { Crediti } from "../crediti";
+import { Faq } from "../faq";
 
 const Project = () => {
   const { chainId, account, activate, active, library, deactivate } =
@@ -39,13 +45,14 @@ const Project = () => {
   };
   return (
     <ContainerProject>
-      <HeaderProject>
-        <p>Progetto</p>
+      <ContainerTop>
+        <img src={Logo} width={"200rem"}></img>
+
         <SecondPartHeader>
           <Link to={"/"}>
             <p>Home</p>
           </Link>
-          <ButtonMetamaskProject
+          <ButtonMetamask
             style={{
               whiteSpace: "nowrap",
               overflow: "hidden",
@@ -56,9 +63,9 @@ const Project = () => {
             }}
           >
             {account ? "Disconnetti" : "Connetti Portafoglio"}
-          </ButtonMetamaskProject>
+          </ButtonMetamask>
         </SecondPartHeader>
-      </HeaderProject>
+      </ContainerTop>
       <BoxProject>
         <BoxNFT>
           <img src={Albero} width={"80%"} />
@@ -74,8 +81,8 @@ const Project = () => {
           <ButtonBuy>BUY</ButtonBuy>
         </BoxNFT>
         <BoxText>
-          <h2>CO2 Credit</h2>
-          <p>
+          <TitleSection style={{ textAlign: "left" }}>Credito CO2</TitleSection>
+          <TestoProgetto>
             L’unicità del bambù è rappresentata dall’estrema rapidità di
             crescita e di sviluppo. La sua particolare abilità nel rigenerarsi
             spontaneamente ogni qualvolta venga recisa, fa del bambù una pianta
@@ -83,13 +90,16 @@ const Project = () => {
             dell’abbigliamento per la realizzazione di tessuti, dai mobili, ma
             soprattutto al mondo dell’edilizia, bioedilizia, dove viene
             utilizzata per costruire edifici a bassissimo impatto ambientale.
+            <br />
             L’utilizzo del bambù per le costruzioni garantisce addirittura
             maggiori prestazioni (in termini di resistenza, trazione e
             compressione) rispetto ai tradizionali materiali come il legno,
             l’acciaio e il calcestruzzo ed è rinominato “acciaio vegetale”.
-          </p>
+          </TestoProgetto>
         </BoxText>
       </BoxProject>
+      <Crediti />
+      <Faq />
     </ContainerProject>
   );
 };
