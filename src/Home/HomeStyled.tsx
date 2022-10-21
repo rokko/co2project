@@ -15,6 +15,7 @@ const ContainerHome = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10rem;
 `;
 const ContainerTop = styled(Box)`
   padding: 2rem;

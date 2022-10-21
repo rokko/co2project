@@ -6,6 +6,7 @@ import {
   TextNft,
   TextPrice,
   TitleSection,
+  ContainerCrediti,
 } from "./Co2ListingStyled";
 import Albero from "../media/albero.png";
 import { Link } from "react-router-dom";
@@ -17,10 +18,11 @@ import {
   mumbaiRete,
   polygonRete,
 } from "../wallet/wallet";
+import Carbon from "../media/carbon.jpeg";
+
 import { useWeb3React } from "@web3-react/core";
 var Contract = require("web3-eth-contract");
 const Web3Utils = require("web3-utils");
-
 const Co2Listing = () => {
   Contract.setProvider(window.ethereum);
   const contract = new Contract(ABI, co2contract);
@@ -42,11 +44,11 @@ const Co2Listing = () => {
     }
   };
   return (
-    <>
+    <ContainerCrediti>
       <TitleSection>CREDITI CO2</TitleSection>
       <ContainerBox>
         <BoxNFT>
-          <img src={Albero} width={"80%"} />
+          <img src={Carbon} width={"80%"} />
           <div
             style={{
               display: "flex",
@@ -57,7 +59,6 @@ const Co2Listing = () => {
           >
             <TextNft>
               CO2 credit <br />
-              TRADABLE
             </TextNft>
             <Link to={"/project"}>
               <img
@@ -66,18 +67,13 @@ const Co2Listing = () => {
               />
             </Link>
           </div>
-          <input
-            style={{ width: "50px", height: "30px" }}
-            placeholder={"Num NFT"}
-          ></input>
-
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
 
           <ButtonBuy onClick={() => Buy()}>BUY</ButtonBuy>
         </BoxNFT>
 
         <BoxNFT>
-          <img src={Albero} width={"80%"} />
+          <img src={Carbon} width={"80%"} />
           <div
             style={{
               display: "flex",
@@ -88,7 +84,6 @@ const Co2Listing = () => {
           >
             <TextNft>
               CO2 credit <br />
-              SINGLE USE
             </TextNft>
             <Link to={"/project"}>
               <img
@@ -96,16 +91,13 @@ const Co2Listing = () => {
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABaUlEQVRIid2VPU7DQBCFPxzFDeEKHCDhDoQCShQilCtERAjIJVDEGaDi5zCIhoDABGjhAKYgBTHFzOIV2rXXSZcnjTbyzL63eZ5Zw7IjBnrADZAAXxoJcK25eF7yLvAOZCXxBuxVIY6AM4vgHjgCmsCqRgs4BsZW3Uj3lsKQfwP9kk0RcKC1RqQQXYt8M+Q0irYl0vEVxeSe9z01xg4XBpp7Bequgh655z5bigRqwIPm981Dm8h0wjkw85CsaLjwA1zob6dNL6re9BCEoKUciSuZarJRQFBkEcCa5lPzIKhvK8DY92exLfCh6/oCAmbvp0vgTtftBQR2dL11JU2bjpm/TR/516Y2YuTiypDxrypwqLkJnkEDmQVzVbR9RQ5sAVPk5e6WFY8skQHy132oISef6p7TkNNElkiGjP8JMkQNjQ1gSO75TMkrtX0HubjKPjgTAmzxoY50xBXwjExoCjwBl5rzvtDlwC8o13JbRpxVtAAAAABJRU5ErkJggg=="
               />
             </Link>
-          </div>{" "}
-          <input
-            style={{ width: "50px", height: "30px" }}
-            placeholder={"Num NFT"}
-          ></input>
+          </div>
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
+
           <ButtonBuy onClick={() => Buy()}>BUY</ButtonBuy>
         </BoxNFT>
       </ContainerBox>
-    </>
+    </ContainerCrediti>
   );
 };
 

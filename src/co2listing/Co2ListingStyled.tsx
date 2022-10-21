@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const BoxNFT = styled.div`
   background-color: whitesmoke;
-  height: 500px;
+  height: 550px;
   width: 350px;
   border-radius: 20px;
   flex-direction: column;
@@ -47,4 +47,14 @@ const ButtonBuy = styled.button`
   border: 0.5px solid black;
 `;
 
-export { TitleSection, BoxNFT, ContainerBox, TextNft, TextPrice, ButtonBuy };
+const ContainerCrediti = styled.div``;
+
+export {
+  TitleSection,
+  BoxNFT,
+  ContainerBox,
+  TextNft,
+  TextPrice,
+  ButtonBuy,
+  ContainerCrediti,
+};
