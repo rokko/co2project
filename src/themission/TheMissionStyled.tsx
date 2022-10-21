@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import SfondoObiettivo from "../media/sfondoobiettivo.png";
 const ContainerObiettivo = styled.div`
-  width: 80%;
+  width: 70%;
   padding: 1rem;
   font-size: 28px;
   display: flex;
