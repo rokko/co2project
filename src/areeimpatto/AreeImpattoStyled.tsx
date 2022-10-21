@@ -25,6 +25,8 @@ const ImpattoContainer = styled.div`
 const ContainerTotale = styled.div`
   background-color: rgb(191, 191, 191, 0.5);
   padding: 4rem;
+  -webkit-box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
 `;
 
 export {
