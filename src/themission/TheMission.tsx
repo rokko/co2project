@@ -1,12 +1,16 @@
 import React from "react";
 import { TitleSection } from "../co2listing/Co2ListingStyled";
-import { ContainerObiettivo, TestoObiettivo } from "./TheMissionStyled";
+import {
+  ContainerObiettivo,
+  TestoObiettivo,
+  ContainerTotaleObiettivo,
+} from "./TheMissionStyled";
 
 const TheMission = () => {
   return (
-    <>
+    <ContainerTotaleObiettivo>
+      <TitleSection style={{ color: "white" }}>L'OBIETTIVO</TitleSection>
       <ContainerObiettivo>
-        <TitleSection>L'OBIETTIVO</TitleSection>
         <TestoObiettivo>
           In un’ottica di eticità e di conservazione dell’ambiente nasce il
           progetto di realizzare dei veri e propri “polmoni verdi” che assorbano
@@ -24,7 +28,7 @@ const TheMission = () => {
           cui l’uomo può disporre.
         </TestoObiettivo>
       </ContainerObiettivo>
-    </>
+    </ContainerTotaleObiettivo>
   );
 };
 
