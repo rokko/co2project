@@ -8,11 +8,23 @@ import {
   ContainerTotale,
 } from "./AreeImpattoStyled";
 
+import Primo from "../media/primo.png";
+import Secondo from "../media/secondo.png";
+import Terzo from "../media/terzo.png";
+import Quarto from "../media/quarto.png";
+
+import { height } from "@mui/system";
+
 const AreeImpatto = () => {
   return (
     <ContainerTotale>
       <TitleSection>4 AREE D'IMPATTO POSITIVO DEL BAMBU'</TitleSection>
-      <ImpattoContainer>
+      <ImpattoContainer
+        style={{
+          backgroundImage: `url(${Primo})`,
+          height: "800px",
+        }}
+      >
         <ImpattoSection>
           <ImpattoTitle>Inquinamento atmosferico</ImpattoTitle>
           <ImpattoTesto>
@@ -21,6 +33,13 @@ const AreeImpatto = () => {
             assorbire tonnellate di carbonio smaltendo azoto e metalli pesanti.
           </ImpattoTesto>
         </ImpattoSection>
+      </ImpattoContainer>
+      <ImpattoContainer
+        style={{
+          backgroundImage: `url(${Terzo})`,
+          height: "800px",
+        }}
+      >
         <ImpattoSection>
           <ImpattoTitle>Inquinamento agricolo</ImpattoTitle>
           <ImpattoTesto>
@@ -30,6 +49,13 @@ const AreeImpatto = () => {
             agricole per arare il terreno.
           </ImpattoTesto>
         </ImpattoSection>
+      </ImpattoContainer>
+      <ImpattoContainer
+        style={{
+          backgroundImage: `url(${Quarto})`,
+          height: "800px",
+        }}
+      >
         <ImpattoSection>
           <ImpattoTitle>Inquinamento idrico</ImpattoTitle>
           <ImpattoTesto>
@@ -39,6 +65,13 @@ const AreeImpatto = () => {
             cedimento a valle dei detriti.
           </ImpattoTesto>
         </ImpattoSection>
+      </ImpattoContainer>
+      <ImpattoContainer
+        style={{
+          backgroundImage: `url(${Secondo})`,
+          height: "800px",
+        }}
+      >
         <ImpattoSection>
           <ImpattoTitle>Inquinamento del suolo</ImpattoTitle>
           <ImpattoTesto>
@@ -46,12 +79,12 @@ const AreeImpatto = () => {
             immune dagli attacchi di parassiti e batteri, eliminando per intero
             l’impiego di prodotti chimici e pesticidi. Dalla piantumazione del
             bambù gigante fino alla crescita delle canne (culmi) non serve
-            quindi nessuna aggiunta di pesticidi o erbicidi. Le radici del bambù
-            creano una fitta ramificazione nel sottosuolo creando un sostegno
-            molto utile per il terreno. Non solo: sono attribuite al bambù
-            capacità importanti di bonifica dei terreni. Così come avviene per
-            l’inquinamento dell’aria, le radici del bambù assorbono le sostanze
-            nocive dal suolo e lo trasformano in ossigeno.
+            quindi nessuna aggiunta di pesticidi o erbicidi. <br />
+            Le radici del bambù creano una fitta ramificazione nel sottosuolo
+            creando un sostegno molto utile per il terreno. Non solo: sono
+            attribuite al bambù capacità importanti di bonifica dei terreni.
+            Così come avviene per l’inquinamento dell’aria, le radici del bambù
+            assorbono le sostanze nocive dal suolo e lo trasformano in ossigeno.
           </ImpattoTesto>
         </ImpattoSection>
       </ImpattoContainer>

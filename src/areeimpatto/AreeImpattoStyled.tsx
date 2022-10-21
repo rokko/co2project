@@ -9,24 +9,31 @@ const ImpattoTitle = styled.p`
 const ImpattoTesto = styled.p`
   text-align: center;
   margin: 2px;
-  font-size: 28px;
+  font-size: 23px;
 `;
 const ImpattoSection = styled.div`
   display: flex;
   flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  background-color: rgb(191, 191, 191, 0.7);
 `;
 
 const ImpattoContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5rem;
 `;
 
 const ContainerTotale = styled.div`
-  background-color: rgb(191, 191, 191, 0.5);
-  padding: 4rem;
-  -webkit-box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
-  box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
 `;
 
 export {
