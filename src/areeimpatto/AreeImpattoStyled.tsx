@@ -7,6 +7,7 @@ const ImpattoTitle = styled.p`
 `;
 
 const ImpattoTesto = styled.p`
+  text-align: center;
   margin: 2px;
   font-size: 28px;
 `;
@@ -22,7 +23,7 @@ const ImpattoContainer = styled.div`
 `;
 
 const ContainerTotale = styled.div`
-  background-color: #bfbfbf;
+  background-color: rgb(191, 191, 191, 0.5);
   padding: 4rem;
 `;
 
