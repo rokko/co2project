@@ -12,4 +12,7 @@ const ContainerObiettivo = styled.div`
   box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
 `;
 
-export { ContainerObiettivo };
+const TestoObiettivo = styled.p`
+  text-align: justify;
+`;
+export { ContainerObiettivo, TestoObiettivo };
