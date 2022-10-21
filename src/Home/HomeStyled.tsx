@@ -33,7 +33,7 @@ const ContainerTitle = styled(Box)`
   justify-content: center;
 `;
 const TitleHome = styled.p`
-  font-size: 85px;
+  font-size: 75px;
   color: black;
   font-weight: bold;
   text-align: center;
