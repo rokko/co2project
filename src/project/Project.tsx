@@ -78,7 +78,7 @@ const Project = () => {
 
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
 
-          <ButtonBuy>BUY</ButtonBuy>
+          <ButtonBuy>ACQUISTA</ButtonBuy>
         </BoxNFT>
         <BoxText>
           <TitleSection style={{ textAlign: "left" }}>Credito CO2</TitleSection>

@@ -48,7 +48,7 @@ const ButtonBuy = styled.button`
   width: 180px;
   font-weight: bold;
   color: white;
-  border: 0.5px solid black;
+  border: none;
 `;
 
 const ContainerCrediti = styled.div``;
