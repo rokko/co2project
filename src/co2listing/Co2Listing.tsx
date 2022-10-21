@@ -48,7 +48,7 @@ const Co2Listing = () => {
       <TitleSection>CREDITI CO2</TitleSection>
       <ContainerBox>
         <BoxNFT>
-          <img src={Carbon} width={"80%"} />
+          <img src={Carbon} width={"350px"} />
           <div
             style={{
               display: "flex",
