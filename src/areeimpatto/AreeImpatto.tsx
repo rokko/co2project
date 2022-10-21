@@ -5,11 +5,12 @@ import {
   ImpattoTitle,
   ImpattoContainer,
   ImpattoSection,
+  ContainerTotale,
 } from "./AreeImpattoStyled";
 
 const AreeImpatto = () => {
   return (
-    <>
+    <ContainerTotale>
       <TitleSection>4 AREE D'IMPATTO POSITIVO DEL BAMBU'</TitleSection>
       <ImpattoContainer>
         <ImpattoSection>
@@ -54,7 +55,7 @@ const AreeImpatto = () => {
           </ImpattoTesto>
         </ImpattoSection>
       </ImpattoContainer>
-    </>
+    </ContainerTotale>
   );
 };
 
