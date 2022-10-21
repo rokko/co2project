@@ -3,6 +3,7 @@ import { TitleSection } from "../co2listing/Co2ListingStyled";
 import {
   BloccoTesto,
   ContainerImages,
+  ContainerTotaleProblemi,
   SingleImage,
   TestoProblemi,
   TitoloProblemi,
@@ -12,14 +13,11 @@ import Deserto from "../media/deserto.jpg";
 import Montagna from "../media/montagna.jpg";
 const Problemi = () => {
   return (
-    <>
+    <ContainerTotaleProblemi>
       <TitleSection>PROBLEMI</TitleSection>
       <ContainerImages>
         <SingleImage>
-          <img
-            src={Sole}
-            style={{ width: "500px", borderRadius: "200px", height: "350px" }}
-          />
+          <img src={Sole} style={{ width: "500px", height: "350px" }} />
           <BloccoTesto>
             <TestoProblemi>
               <TitoloProblemi>Surriscaldamento ed effetto serra</TitoloProblemi>
@@ -29,10 +27,6 @@ const Problemi = () => {
           </BloccoTesto>
         </SingleImage>
         <SingleImage>
-          <img
-            src={Deserto}
-            style={{ width: "500px", borderRadius: "200px", height: "350px" }}
-          />
           <BloccoTesto>
             <TestoProblemi>
               <TitoloProblemi>Impoverimento dei terreni </TitoloProblemi>
@@ -40,12 +34,10 @@ const Problemi = () => {
               fino a desertificazione
             </TestoProblemi>
           </BloccoTesto>
+          <img src={Deserto} style={{ width: "500px", height: "350px" }} />
         </SingleImage>
         <SingleImage>
-          <img
-            src={Montagna}
-            style={{ width: "500px", borderRadius: "200px", height: "350px" }}
-          />
+          <img src={Montagna} style={{ width: "500px", height: "350px" }} />
           <BloccoTesto>
             <TestoProblemi>
               <TitoloProblemi> Dissesto idrogeologico</TitoloProblemi>
@@ -57,7 +49,7 @@ const Problemi = () => {
           </BloccoTesto>
         </SingleImage>
       </ContainerImages>
-    </>
+    </ContainerTotaleProblemi>
   );
 };
 

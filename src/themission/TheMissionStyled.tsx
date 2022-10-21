@@ -24,5 +24,7 @@ const ContainerTotaleObiettivo = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  -webkit-box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
 `;
 export { ContainerObiettivo, TestoObiettivo, ContainerTotaleObiettivo };
