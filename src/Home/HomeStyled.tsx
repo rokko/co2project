@@ -17,7 +17,7 @@ const ContainerHome = styled.div`
   align-items: center;
 `;
 const ContainerTop = styled(Box)`
-  padding: 5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -40,7 +40,7 @@ const TitleHome = styled.p`
 `;
 
 const BlueSpan = styled.span`
-  color: blue;
+  color: #3075ff;
 `;
 
 const ButtonMetamask = styled.button`
