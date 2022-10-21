@@ -38,7 +38,8 @@ const ContainerBox = styled.div`
 `;
 
 const ButtonBuy = styled.button`
-  background-color: blue;
+  background-color: #3075ff;
+
   border-radius: 10px;
   height: 40px;
   width: 180px;

@@ -24,6 +24,7 @@ import { ButtonMetamask, ContainerTop } from "../Home/HomeStyled";
 import Logo from "../media/logo.png";
 import { Crediti } from "../crediti";
 import { Faq } from "../faq";
+import Carbon from "../media/carbon.jpeg";
 
 const Project = () => {
   const { chainId, account, activate, active, library, deactivate } =
@@ -68,11 +69,10 @@ const Project = () => {
       </ContainerTop>
       <BoxProject>
         <BoxNFT>
-          <img src={Albero} width={"80%"} />
+          <img src={Carbon} width={"80%"} />
           <div style={{ display: "flex", flexDirection: "row", gap: "5rem" }}>
             <TextNft>
               CO2 credit <br />
-              TRADABLE
             </TextNft>
           </div>
 
