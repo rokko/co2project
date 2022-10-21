@@ -47,6 +47,8 @@ const BoxText = styled.div`
   display: flex;
   flex-direction: column;
   width: 70%;
+  padding: 3rem;
+  text-align: justify;
 `;
 
 const BoxProject = styled.div`
