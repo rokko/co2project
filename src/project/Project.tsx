@@ -76,14 +76,17 @@ const Project = () => {
         <BoxText>
           <h2>CO2 Credit</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            euismod arcu id lobortis ultricies. Suspendisse et pellentesque
-            lacus, nec rhoncus nibh. Maecenas condimentum lacus vitae pharetra
-            rutrum. Sed iaculis elit lacus, a dapibus ipsum rutrum non. Aliquam
-            porta, arcu ut eleifend dictum, felis purus dictum nunc, a varius
-            ante est eu lacus. Phasellus iaculis, sapien a auctor porta, dui leo
-            pretium orci, id consectetur magna magna non felis. Proin vel leo
-            nec felis pretium cursus condimentum mattis elit.
+            L’unicità del bambù è rappresentata dall’estrema rapidità di
+            crescita e di sviluppo. La sua particolare abilità nel rigenerarsi
+            spontaneamente ogni qualvolta venga recisa, fa del bambù una pianta
+            che si presta bene a numerosi impieghi: dalla cucina all’industria
+            dell’abbigliamento per la realizzazione di tessuti, dai mobili, ma
+            soprattutto al mondo dell’edilizia, bioedilizia, dove viene
+            utilizzata per costruire edifici a bassissimo impatto ambientale.
+            L’utilizzo del bambù per le costruzioni garantisce addirittura
+            maggiori prestazioni (in termini di resistenza, trazione e
+            compressione) rispetto ai tradizionali materiali come il legno,
+            l’acciaio e il calcestruzzo ed è rinominato “acciaio vegetale”.
           </p>
         </BoxText>
       </BoxProject>

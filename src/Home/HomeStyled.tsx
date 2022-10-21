@@ -2,15 +2,14 @@ import { Box, Button, Container } from "@mui/material";
 import styled from "styled-components";
 
 const ContainerHome = styled.div`
-  background: #00b09b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    #4cffae,
-    #ffffff
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: rgb(76, 255, 174);
   background: linear-gradient(
-    #4cffae,
-    #ffffff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    180deg,
+    rgba(76, 255, 174, 1) 0%,
+    rgba(255, 255, 255, 1) 44%,
+    rgba(255, 255, 255, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: 100%;
   display: flex;
   flex-direction: column;

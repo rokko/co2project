@@ -5,7 +5,7 @@ const Crediti = () => {
   return (
     <>
       <TitleSection>I NOSTRI CREDITI SU BLOCKCHAIN</TitleSection>
-      <Arch />
+      <Arch style={{ width: "100%" }} />
     </>
   );
 };
