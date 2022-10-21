@@ -7,7 +7,7 @@ const TestoSoluzione = styled.div`
 `;
 
 const ContainerSoluzione = styled.div`
-  width: 700px;
+  max-width: 700px;
   padding: 1rem;
   display: flex;
   height: auto;

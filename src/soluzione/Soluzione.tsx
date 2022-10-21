@@ -15,8 +15,9 @@ const Soluzione = () => {
         <ContainerSoluzione
           style={{
             position: "absolute",
-            left: "13rem",
+            left: "10%",
             top: "5rem",
+            right: "55rem",
           }}
         >
           <TestoSoluzione>
@@ -38,8 +39,9 @@ const Soluzione = () => {
         <ContainerSoluzione
           style={{
             position: "absolute",
-            right: "13rem",
+            right: "10%",
             bottom: "5rem",
+            left: "60rem",
           }}
         >
           <TestoSoluzione>
