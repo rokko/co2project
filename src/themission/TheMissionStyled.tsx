@@ -13,6 +13,6 @@ const ContainerObiettivo = styled.div`
 `;
 
 const TestoObiettivo = styled.p`
-  text-align: justify;
+  text-align: center;
 `;
 export { ContainerObiettivo, TestoObiettivo };
