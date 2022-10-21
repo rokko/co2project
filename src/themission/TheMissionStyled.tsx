@@ -3,7 +3,7 @@ import SfondoObiettivo from "../media/sfondoobiettivo.png";
 const ContainerObiettivo = styled.div`
   width: 80%;
   padding: 1rem;
-  font-size: 30px;
+  font-size: 28px;
   display: flex;
   line-height: 3rem;
   flex-direction: column;
