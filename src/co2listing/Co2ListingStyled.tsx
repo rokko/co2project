@@ -51,7 +51,9 @@ const ButtonBuy = styled.button`
   border: none;
 `;
 
-const ContainerCrediti = styled.div``;
+const ContainerCrediti = styled.div`
+  margin-top: 10rem;
+`;
 
 export {
   TitleSection,
