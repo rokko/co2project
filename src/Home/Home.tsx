@@ -68,7 +68,7 @@ const Home = () => {
         }}
       >
         <ContainerTop>
-          <img src={Logo} width={"200rem"}></img>
+          <img src={Logo} width={"180rem"}></img>
           {!account ? (
             <ButtonMetamask onClick={() => connect()}>
               Connetti Portafoglio
