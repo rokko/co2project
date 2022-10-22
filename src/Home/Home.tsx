@@ -8,7 +8,7 @@ import {
   SubtitleText,
   TitleHome,
 } from "./HomeStyled";
-import ABI from "../wallet/abi_co2.json";
+import ABI from "../wallet/nuovo.json";
 
 import Logo from "../media/logo.png";
 import { Co2Listing } from "../co2listing";
