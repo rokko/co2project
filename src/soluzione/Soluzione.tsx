@@ -9,7 +9,7 @@ import Bamboo from "../media/bamboo.jpg";
 import { height } from "@mui/system";
 const Soluzione = () => {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <TitleSection>SOLUZIONE</TitleSection>
       <ContainerTotaleSoluzione>
         <ContainerSoluzione

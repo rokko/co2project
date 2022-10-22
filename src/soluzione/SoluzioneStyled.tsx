@@ -3,7 +3,7 @@ import Bamboo from "../media/bamboo.jpg";
 
 const TestoSoluzione = styled.div`
   text-align: center;
-  font-size: 18px;
+  font-size: 28px;
 `;
 
 const ContainerSoluzione = styled.div`
@@ -23,7 +23,7 @@ const ContainerTotaleSoluzione = styled.div`
   background-size: cover;
   height: 1000px;
   position: relative;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 2rem;

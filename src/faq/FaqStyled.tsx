@@ -10,7 +10,7 @@ const TestoRispostaFaq = styled.p`
 `;
 
 const ContainerFaq = styled.div`
-  width: 100vw;
+  width: 100%;
   padding: 8rem;
   display: flex;
   flex-direction: column;

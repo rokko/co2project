@@ -48,7 +48,7 @@ const Project = () => {
   return (
     <ContainerProject>
       <ContainerTop>
-        <img src={Logo} width={"200rem"}></img>
+        <img src={Logo} width={"180rem"}></img>
 
         <SecondPartHeader>
           <Link style={{ textDecoration: "none" }} to={"/"}>

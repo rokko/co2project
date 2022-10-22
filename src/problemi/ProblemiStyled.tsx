@@ -38,7 +38,7 @@ const BloccoTesto = styled.div`
 `;
 
 const ContainerTotaleProblemi = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
