@@ -18,7 +18,7 @@ import {
   mumbaiRete,
   polygonRete,
 } from "../wallet/wallet";
-import Carbon from "../media/carbon.jpeg";
+import Carbon from "../media/carbon.png";
 
 import { useWeb3React } from "@web3-react/core";
 var Contract = require("web3-eth-contract");

@@ -24,7 +24,7 @@ import { ButtonMetamask, ContainerTop } from "../Home/HomeStyled";
 import Logo from "../media/logo.png";
 import { Crediti } from "../crediti";
 import { Faq } from "../faq";
-import Carbon from "../media/carbon.jpeg";
+import Carbon from "../media/carbon.png";
 import { Footer } from "../footer";
 
 const Project = () => {
