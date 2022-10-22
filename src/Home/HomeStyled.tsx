@@ -26,6 +26,7 @@ const ContainerTop = styled(Box)`
   align-content: center;
 `;
 const ContainerTitle = styled(Box)`
+  margin-top: 16rem;
   display: flex;
   flex-direction: column;
   align-items: center;
