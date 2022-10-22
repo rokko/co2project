@@ -28,14 +28,7 @@ const TestoProgetto = styled.p`
   font-size: 24px;
 `;
 const ContainerProject = styled.div`
-  background: rgb(76, 255, 174);
-  background: linear-gradient(
-    180deg,
-    rgba(76, 255, 174, 1) 0%,
-    rgba(255, 255, 255, 1) 44%,
-    rgba(255, 255, 255, 1) 69%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: white;
   height: 100%;
   display: flex;
   flex-direction: column;
