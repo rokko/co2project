@@ -20,7 +20,7 @@ const ContainerTop = styled(Box)`
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 95%;
   justify-content: space-between;
   align-items: center;
   align-content: center;
