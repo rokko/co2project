@@ -10,7 +10,8 @@ const HeaderProject = styled.div`
 const SecondPartHeader = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
+  align-items: center;
 `;
 const ButtonMetamaskProject = styled.button`
   background-color: darkgreen;

@@ -51,8 +51,15 @@ const Project = () => {
         <img src={Logo} width={"200rem"}></img>
 
         <SecondPartHeader>
-          <Link to={"/"}>
-            <p>Home</p>
+          <Link style={{ textDecoration: "none" }} to={"/"}>
+            <p style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}>
+              Home
+            </p>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to={"/"}>
+            <p style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}>
+              Contattaci
+            </p>
           </Link>
           <ButtonMetamask
             style={{
