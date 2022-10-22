@@ -3,7 +3,7 @@ import Bamboo from "../media/bamboo.jpg";
 
 const TestoSoluzione = styled.div`
   text-align: center;
-  font-size: 28px;
+  font-size: 18px;
 `;
 
 const ContainerSoluzione = styled.div`
