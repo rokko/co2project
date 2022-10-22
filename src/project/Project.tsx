@@ -77,14 +77,27 @@ const Project = () => {
       </ContainerTop>
       <BoxProject>
         <BoxNFT>
-          <img src={Carbon} width={"80%"} />
-          <div style={{ display: "flex", flexDirection: "row", gap: "5rem" }}>
-            <TextNft>
-              CO2 credit <br />
-            </TextNft>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <img src={Carbon} width={"350px"} />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "5rem",
+                position: "relative",
+              }}
+            >
+              <TextNft>
+                CO2 credit <br />
+              </TextNft>
+            </div>
+            <TextPrice>90€ - 101,3 MATIC</TextPrice>
           </div>
-
-          <TextPrice>90€ - 101,3 MATIC</TextPrice>
 
           <ButtonBuy>ACQUISTA</ButtonBuy>
         </BoxNFT>

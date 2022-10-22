@@ -6,7 +6,7 @@ const BoxNFT = styled.div`
     background-color: white;
   }
   height: 550px;
-  width: 460px;
+  width: 400px;
   border-radius: 20px;
   flex-direction: column;
   display: flex;
@@ -30,6 +30,7 @@ const TextNft = styled.p`
 `;
 
 const TextPrice = styled.p`
+  margin-top: -10px;
   font-size: 22px;
 `;
 
