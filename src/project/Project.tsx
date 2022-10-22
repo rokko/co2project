@@ -25,6 +25,7 @@ import Logo from "../media/logo.png";
 import { Crediti } from "../crediti";
 import { Faq } from "../faq";
 import Carbon from "../media/carbon.jpeg";
+import { Footer } from "../footer";
 
 const Project = () => {
   const { chainId, account, activate, active, library, deactivate } =
@@ -100,6 +101,7 @@ const Project = () => {
       </BoxProject>
       <Crediti />
       <Faq />
+      <Footer />
     </ContainerProject>
   );
 };
