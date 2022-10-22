@@ -11,7 +11,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Faq = () => {
   return (
-    <ContainerFaq>
+    <ContainerFaq id="faq">
       <TitleSection style={{ textAlign: "left" }}>FAQ</TitleSection>
       <Accordion>
         <AccordionSummary

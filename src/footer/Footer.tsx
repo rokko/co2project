@@ -3,7 +3,7 @@ import { ContainerFooter } from "./FooterStyled";
 
 const Footer = () => {
   return (
-    <ContainerFooter>
+    <ContainerFooter id="footer">
       <p>Nome</p>
       <input style={{ height: "40px" }}></input>
       <p>Cognome</p>

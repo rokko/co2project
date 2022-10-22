@@ -29,6 +29,8 @@ import { AreeImpatto } from "../areeimpatto";
 import { Faq } from "../faq";
 import { Partner } from "../partner";
 import SfondoPrimo from "../media/sfondoiniziale.png";
+import { SecondPartHeader } from "../project/ProjectStyled";
+import { Link } from "react-router-dom";
 var Contract = require("web3-eth-contract");
 
 const Home = () => {
@@ -73,22 +75,52 @@ const Home = () => {
       >
         <ContainerTop>
           <img src={Logo} width={"160rem"}></img>
-          {!account ? (
-            <ButtonMetamask onClick={() => connect()}>
-              Connetti Portafoglio
-            </ButtonMetamask>
-          ) : (
-            <ButtonMetamask
-              style={{
-                whiteSpace: "nowrap",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-              }}
-              onClick={() => deactivate()}
-            >
-              Disconnetti
-            </ButtonMetamask>
-          )}
+          <SecondPartHeader>
+            <a href="#obiettivo" style={{ textDecoration: "none" }}>
+              <p
+                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+              >
+                Obiettivo
+              </p>
+            </a>
+            <a href="#blockchain" style={{ textDecoration: "none" }}>
+              <p
+                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+              >
+                Blockchain
+              </p>
+            </a>
+            <a href="#faq" style={{ textDecoration: "none" }}>
+              <p
+                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+              >
+                FAQ
+              </p>
+            </a>
+            <a href="#footer" style={{ textDecoration: "none" }}>
+              <p
+                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+              >
+                Contattaci
+              </p>
+            </a>
+            {!account ? (
+              <ButtonMetamask onClick={() => connect()}>
+                Connetti Portafoglio
+              </ButtonMetamask>
+            ) : (
+              <ButtonMetamask
+                style={{
+                  whiteSpace: "nowrap",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                }}
+                onClick={() => deactivate()}
+              >
+                Disconnetti
+              </ButtonMetamask>
+            )}
+          </SecondPartHeader>
         </ContainerTop>
         <ContainerTitle>
           <TitleHome>
