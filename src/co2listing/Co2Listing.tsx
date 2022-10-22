@@ -94,7 +94,7 @@ const Co2Listing = () => {
           </div>
           <TextPrice>90€ - 101,3 MATIC</TextPrice>
 
-          <ButtonBuy onClick={() => Buy()}>BUY</ButtonBuy>
+          <ButtonBuy onClick={() => Buy()}>ACQUISTA</ButtonBuy>
         </BoxNFT>
       </ContainerBox>
     </ContainerCrediti>
