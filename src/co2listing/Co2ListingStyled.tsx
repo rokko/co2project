@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const BoxNFT = styled.div`
-  background-color: rgb(191, 191, 191, 0.8);
+  /*background-color: rgb(191, 191, 191, 0.8);
   /*&:hover {
     background-color: white;
   }*/
+  background-color: white;
   height: 550px;
   width: 400px;
   border-radius: 20px;
