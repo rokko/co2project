@@ -17,7 +17,7 @@ const ContainerHome = styled.div`
   gap: 10rem;
 `;
 const ContainerTop = styled(Box)`
-  padding: 2rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: row;
   width: 90%;

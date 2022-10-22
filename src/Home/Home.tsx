@@ -65,6 +65,10 @@ const Home = () => {
           height: "1200px",
           width: "99vw",
           backgroundSize: "cover",
+          display: "flex",
+          flexDirection: "column",
+          alignContent: "center",
+          alignItems: "center",
         }}
       >
         <ContainerTop>
