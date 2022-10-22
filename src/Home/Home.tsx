@@ -28,6 +28,7 @@ import { Crediti } from "../crediti";
 import { AreeImpatto } from "../areeimpatto";
 import { Faq } from "../faq";
 import { Partner } from "../partner";
+import SfondoPrimo from "../media/sfondoiniziale.png";
 var Contract = require("web3-eth-contract");
 
 const Home = () => {
@@ -58,36 +59,46 @@ const Home = () => {
   };
   return (
     <ContainerHome>
-      <ContainerTop>
-        <img src={Logo} width={"200rem"}></img>
-        {!account ? (
-          <ButtonMetamask onClick={() => connect()}>
-            Connetti Portafoglio
-          </ButtonMetamask>
-        ) : (
-          <ButtonMetamask
-            style={{
-              whiteSpace: "nowrap",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-            }}
-            onClick={() => deactivate()}
-          >
-            Disconnetti
-          </ButtonMetamask>
-        )}
-      </ContainerTop>
-      <ContainerTitle>
-        <TitleHome>
-          Scopri, colleziona e<br />
-          scambia i tuoi <BlueSpan>Crediti CO2</BlueSpan>
-        </TitleHome>
-        <SubtitleText>
-          "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
-          <br />
-          attività se vogliamo condurre una vita in salute e benessere sociale"
-        </SubtitleText>
-      </ContainerTitle>
+      <div
+        style={{
+          backgroundImage: `url(${SfondoPrimo})`,
+          height: "1100px",
+          width: "100%",
+          backgroundSize: "cover",
+        }}
+      >
+        <ContainerTop>
+          <img src={Logo} width={"200rem"}></img>
+          {!account ? (
+            <ButtonMetamask onClick={() => connect()}>
+              Connetti Portafoglio
+            </ButtonMetamask>
+          ) : (
+            <ButtonMetamask
+              style={{
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+              }}
+              onClick={() => deactivate()}
+            >
+              Disconnetti
+            </ButtonMetamask>
+          )}
+        </ContainerTop>
+        <ContainerTitle>
+          <TitleHome>
+            Scopri, colleziona e<br />
+            scambia i tuoi <BlueSpan>Crediti CO2</BlueSpan>
+          </TitleHome>
+          <SubtitleText>
+            "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
+            <br />
+            attività se vogliamo condurre una vita in salute e benessere
+            sociale"
+          </SubtitleText>
+        </ContainerTitle>
+      </div>
       <Co2Listing />
       <TheMission />
       <Problemi />
