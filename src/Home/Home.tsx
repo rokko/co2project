@@ -62,7 +62,7 @@ const Home = () => {
       <div
         style={{
           backgroundImage: `url(${SfondoPrimo})`,
-          height: "1100px",
+          height: "1200px",
           width: "99vw",
           backgroundSize: "cover",
         }}
