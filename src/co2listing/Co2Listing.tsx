@@ -64,7 +64,8 @@ const Co2Listing = () => {
               }}
             >
               <TextNft>
-                CO2 credit <br />
+                CO2 credit scambiabile
+                <br />
               </TextNft>
               <Link to={"/project"}>
                 <img
@@ -100,7 +101,7 @@ const Co2Listing = () => {
               }}
             >
               <TextNft>
-                CO2 credit <br />
+                CO2 credit uso singolo <br />
               </TextNft>
               <Link to={"/project"}>
                 <img
