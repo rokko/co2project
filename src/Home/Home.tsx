@@ -78,28 +78,28 @@ const Home = () => {
           <SecondPartHeader>
             <a href="#obiettivo" style={{ textDecoration: "none" }}>
               <p
-                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+                style={{ color: "black", fontSize: "25px", fontWeight: "500" }}
               >
                 Obiettivo
               </p>
             </a>
             <a href="#blockchain" style={{ textDecoration: "none" }}>
               <p
-                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+                style={{ color: "black", fontSize: "25px", fontWeight: "500" }}
               >
                 Blockchain
               </p>
             </a>
             <a href="#faq" style={{ textDecoration: "none" }}>
               <p
-                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+                style={{ color: "black", fontSize: "25px", fontWeight: "500" }}
               >
                 FAQ
               </p>
             </a>
             <a href="#footer" style={{ textDecoration: "none" }}>
               <p
-                style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}
+                style={{ color: "black", fontSize: "25px", fontWeight: "500" }}
               >
                 Contattaci
               </p>

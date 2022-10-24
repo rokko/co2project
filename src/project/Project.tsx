@@ -52,12 +52,12 @@ const Project = () => {
 
         <SecondPartHeader>
           <Link style={{ textDecoration: "none" }} to={"/"}>
-            <p style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}>
+            <p style={{ color: "black", fontSize: "25px", fontWeight: "500" }}>
               Home
             </p>
           </Link>
           <Link style={{ textDecoration: "none" }} to={"/"}>
-            <p style={{ color: "black", fontSize: "25px", fontWeight: "bold" }}>
+            <p style={{ color: "black", fontSize: "25px", fontWeight: "500" }}>
               Contattaci
             </p>
           </Link>
