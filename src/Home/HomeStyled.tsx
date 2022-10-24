@@ -2,7 +2,7 @@ import { Box, Button, Container } from "@mui/material";
 import styled from "styled-components";
 
 const ContainerHome = styled.div`
-  background: rgb(76, 255, 174);
+  /* background: rgb(76, 255, 174);
   background: linear-gradient(
     180deg,
     rgba(76, 255, 174, 1) 0%,
@@ -10,6 +10,8 @@ const ContainerHome = styled.div`
     rgba(255, 255, 255, 1) 69%,
     rgba(255, 255, 255, 1) 100%
   );
+  */
+  background-color: white;
   height: 100%;
   display: flex;
   flex-direction: column;
