@@ -11,7 +11,7 @@ const ContainerHome = styled.div`
     rgba(255, 255, 255, 1) 100%
   );
   */
-  background-color: white;
+  background-color: #fefefe;
   height: 100%;
   display: flex;
   flex-direction: column;
