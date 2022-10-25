@@ -5,9 +5,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: Open-Sans, Helvetica, Sans-Serif, serif;
     height: 100%;
-    background: #96c93d; /* fallback for old browsers */
-    background: -webkit-linear-gradient(#4CFFAE, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#4CFFAE, #ffffff);
+    padding-bottom: 10rem;
   }
   *{
     box-sizing: border-box;
