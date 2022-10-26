@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import SfondoObiettivo from "../media/sfondoobiettivo.png";
 const ContainerObiettivo = styled.div`
+  border-radius: 20px;
   width: 70%;
   padding: 1rem;
   font-size: 23px;
@@ -17,6 +18,7 @@ const TestoObiettivo = styled.p`
 `;
 
 const ContainerTotaleObiettivo = styled.div`
+  border-radius: 20px;
   background-image: url("${SfondoObiettivo}");
   background-size: cover;
   height: 800px;

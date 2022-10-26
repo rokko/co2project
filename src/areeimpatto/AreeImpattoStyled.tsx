@@ -17,6 +17,7 @@ const ImpattoSection = styled.div`
   width: 75%;
   padding: 2rem;
   background-color: rgb(191, 191, 191, 0.7);
+  border-radius: 20px;
 `;
 
 const ImpattoContainer = styled.div`
@@ -26,6 +27,7 @@ const ImpattoContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   padding: 5rem;
+  border-radius: 20px;
 `;
 
 const ContainerTotale = styled.div`
@@ -34,6 +36,7 @@ const ContainerTotale = styled.div`
   align-items: center;
   align-content: center;
   gap: 1rem;
+  border-radius: 20px;
 `;
 
 export {

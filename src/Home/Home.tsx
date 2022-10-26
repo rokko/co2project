@@ -71,6 +71,8 @@ const Home = () => {
           flexDirection: "column",
           alignContent: "center",
           alignItems: "center",
+            borderBottomLeftRadius:'20px',
+            borderBottomRightRadius:'20px',
         }}
       >
         <ContainerTop>

@@ -27,5 +27,6 @@ const ContainerTotaleSoluzione = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  border-radius: 20px;
 `;
 export { TestoSoluzione, ContainerSoluzione, ContainerTotaleSoluzione };

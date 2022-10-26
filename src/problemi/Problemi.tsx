@@ -17,7 +17,7 @@ const Problemi = () => {
       <TitleSection>PROBLEMI</TitleSection>
       <ContainerImages>
         <SingleImage>
-          <img src={Sole} style={{ width: "500px", height: "350px" }} />
+          <img src={Sole} style={{ width: "500px", height: "350px", borderRadius:'20px' }} />
           <BloccoTesto>
             <TestoProblemi>
               <TitoloProblemi>Surriscaldamento ed effetto serra</TitoloProblemi>
@@ -34,10 +34,10 @@ const Problemi = () => {
               fino a desertificazione
             </TestoProblemi>
           </BloccoTesto>
-          <img src={Deserto} style={{ width: "500px", height: "350px" }} />
+          <img src={Deserto} style={{ width: "500px", height: "350px", borderRadius:'20px'}} />
         </SingleImage>
         <SingleImage>
-          <img src={Montagna} style={{ width: "500px", height: "350px" }} />
+          <img src={Montagna} style={{ width: "500px", height: "350px" , borderRadius:'20px'}} />
           <BloccoTesto>
             <TestoProblemi>
               <TitoloProblemi> Dissesto idrogeologico</TitoloProblemi>

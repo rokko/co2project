@@ -5,9 +5,11 @@ const ContainerImages = styled.div`
   flex-direction: column;
   gap: 4rem;
   position: relative;
+  border-radius: 20px;
 `;
 
 const SingleImage = styled.div`
+  border-radius: 20px;
   background-color: white;
   width: 80vw;
   display: flex;
@@ -35,9 +37,11 @@ const BloccoTesto = styled.div`
   align-items: center;
   align-content: center;
   justify-content: center;
+  border-radius: 20px;
 `;
 
 const ContainerTotaleProblemi = styled.div`
+  border-radius: 20px;
   width: 100%;
   display: flex;
   flex-direction: column;
