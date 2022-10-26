@@ -16,7 +16,7 @@ const ImpattoSection = styled.div`
   flex-direction: column;
   width: 75%;
   padding: 2rem;
-  background-color: rgb(191, 191, 191, 0.7);
+  background-color: rgb(134, 177, 63,0.7);
   border-radius: 20px;
 `;
 

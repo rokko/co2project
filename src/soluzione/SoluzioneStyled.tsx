@@ -15,7 +15,7 @@ const ContainerSoluzione = styled.div`
   flex-direction: column;
   -webkit-box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
   box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
-  background-color: rgb(191, 191, 191, 0.7);
+  background-color: rgb(134, 177, 63,0.7);
 `;
 
 const ContainerTotaleSoluzione = styled.div`

@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const ContainerFooter = styled.div`
-  border-top: 1px solid;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   gap: 2rem;
   display: flex;
   flex-direction: row;
   padding: 2rem;
   width: 100%;
-  height: 200px;
+  background-color: rgb(134, 177, 63);
 `;
 
 

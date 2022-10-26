@@ -43,6 +43,7 @@ const Soluzione = () => {
             right: "10%",
             bottom: "5rem",
             left: "60rem",
+              borderRadius:'20px'
           }}
         >
           <TestoSoluzione>
