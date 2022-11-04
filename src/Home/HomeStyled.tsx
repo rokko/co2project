@@ -1,5 +1,6 @@
 import { Box, Button, Container } from "@mui/material";
 import styled from "styled-components";
+import { pulse } from "react-animations";
 
 const ContainerHome = styled.div`
   /* background: rgb(76, 255, 174);
@@ -27,7 +28,8 @@ const ContainerTop = styled(Box)`
   align-items: center;
   align-content: center;
 `;
-const ContainerTitle = styled(Box)`
+const ContainerTitle = styled.div`
+  animation: 10s ${pulse};
   margin-top: 16rem;
   display: flex;
   flex-direction: column;

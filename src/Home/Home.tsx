@@ -9,6 +9,7 @@ import {
   TitleHome,
 } from "./HomeStyled";
 import ABI from "../wallet/nuovo.json";
+import Pulse from "react-reveal/Pulse";
 
 import Logo from "../media/logo.png";
 import { Co2Listing } from "../co2listing";
@@ -71,8 +72,8 @@ const Home = () => {
           flexDirection: "column",
           alignContent: "center",
           alignItems: "center",
-            borderBottomLeftRadius:'20px',
-            borderBottomRightRadius:'20px',
+          borderBottomLeftRadius: "20px",
+          borderBottomRightRadius: "20px",
         }}
       >
         <ContainerTop>
@@ -124,18 +125,20 @@ const Home = () => {
             )}
           </SecondPartHeader>
         </ContainerTop>
-        <ContainerTitle>
-          <TitleHome>
-            Scopri, colleziona e<br />
-            scambia i tuoi <BlueSpan>Crediti CO2</BlueSpan>
-          </TitleHome>
-          <SubtitleText>
-            "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
-            <br />
-            attività se vogliamo condurre una vita in salute e benessere
-            sociale"
-          </SubtitleText>
-        </ContainerTitle>
+        <Pulse duration={4000}>
+          <ContainerTitle>
+            <TitleHome>
+              Scopri, colleziona e<br />
+              scambia i tuoi <BlueSpan>Crediti CO2</BlueSpan>
+            </TitleHome>
+            <SubtitleText>
+              "Etica e sostenibilità dovrebbero essere alla base di ogni nostra
+              <br />
+              attività se vogliamo condurre una vita in salute e benessere
+              sociale"
+            </SubtitleText>
+          </ContainerTitle>
+        </Pulse>
       </div>
       <Co2Listing />
       <TheMission />
