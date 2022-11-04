@@ -1,6 +1,8 @@
-import styled from "styled-components";
+import styled ,{ keyframes } from "styled-components";
 import Bamboo from "../media/bamboo.jpg";
+import {bounceIn} from 'react-animations'
 
+const BounceAnimation = keyframes`${bounceIn}`;
 const TestoSoluzione = styled.div`
   text-align: center;
   font-size: 28px;
@@ -19,6 +21,7 @@ const ContainerSoluzione = styled.div`
 `;
 
 const ContainerTotaleSoluzione = styled.div`
+  
   background-image: url("${Bamboo}");
   background-size: cover;
   height: 1000px;
@@ -29,4 +32,4 @@ const ContainerTotaleSoluzione = styled.div`
   gap: 2rem;
   border-radius: 20px;
 `;
-export { TestoSoluzione, ContainerSoluzione, ContainerTotaleSoluzione };
+export { TestoSoluzione, ContainerSoluzione, ContainerTotaleSoluzione, BounceAnimation };

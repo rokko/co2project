@@ -1,9 +1,9 @@
 import React from "react";
 import { TitleSection } from "../co2listing/Co2ListingStyled";
 import {
-  TestoSoluzione,
-  ContainerSoluzione,
-  ContainerTotaleSoluzione,
+    TestoSoluzione,
+    ContainerSoluzione,
+    ContainerTotaleSoluzione, BounceAnimation,
 } from "./SoluzioneStyled";
 import Bamboo from "../media/bamboo.jpg";
 import { height } from "@mui/system";
@@ -18,7 +18,7 @@ const Soluzione = () => {
             left: "10%",
             top: "5rem",
             right: "55rem",
-              borderRadius:'20px'
+              borderRadius:'20px',
           }}
         >
           <TestoSoluzione>
