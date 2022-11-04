@@ -5,6 +5,10 @@ const BoxNFT = styled.div`
   /*&:hover {
     background-color: white;
   }*/
+  &:hover {
+    width: 500px;
+    height: 600px;
+  }
   background-color: white;
   height: 550px;
   width: 400px;
