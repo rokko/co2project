@@ -1,11 +1,12 @@
-import styled ,{ keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components";
 import Bamboo from "../media/bamboo.jpg";
-import {bounceIn} from 'react-animations'
+import { bounceIn } from "react-animations";
 
 const BounceAnimation = keyframes`${bounceIn}`;
 const TestoSoluzione = styled.div`
   text-align: center;
   font-size: 28px;
+  color: black;
 `;
 
 const ContainerSoluzione = styled.div`
@@ -17,11 +18,10 @@ const ContainerSoluzione = styled.div`
   flex-direction: column;
   -webkit-box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
   box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
-  background-color: rgb(134, 177, 63,0.7);
+  background-color: rgb(255, 255, 255, 0.7);
 `;
 
 const ContainerTotaleSoluzione = styled.div`
-  
   background-image: url("${Bamboo}");
   background-size: cover;
   height: 1000px;
@@ -32,4 +32,9 @@ const ContainerTotaleSoluzione = styled.div`
   gap: 2rem;
   border-radius: 20px;
 `;
-export { TestoSoluzione, ContainerSoluzione, ContainerTotaleSoluzione, BounceAnimation };
+export {
+  TestoSoluzione,
+  ContainerSoluzione,
+  ContainerTotaleSoluzione,
+  BounceAnimation,
+};

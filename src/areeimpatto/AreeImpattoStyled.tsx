@@ -10,13 +10,14 @@ const ImpattoTesto = styled.p`
   text-align: center;
   margin: 2px;
   font-size: 23px;
+  color: black;
 `;
 const ImpattoSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 75%;
   padding: 2rem;
-  background-color: rgb(134, 177, 63,0.7);
+  background-color: rgb(255, 255, 255, 0.7);
   border-radius: 20px;
 `;
 
