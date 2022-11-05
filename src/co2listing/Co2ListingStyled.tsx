@@ -8,6 +8,7 @@ const BoxNFT = styled.div`
   &:hover {
     width: 500px;
     height: 600px;
+    transition: 0.5s;
   }
   background-color: white;
   height: 550px;
