@@ -12,11 +12,17 @@ const ContainerObiettivo = styled.div`
   flex-direction: column;
   -webkit-box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
   box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
-  background-color: rgb(134, 177, 63, 0.7);
+  background-color: rgb(
+    1,
+    51,
+    32,
+    0.7
+  ); //biancorgb(255,255,255,0.7); // verdone  // vecchio rgb(134, 177, 63, 0.7);
 `;
 
 const TestoObiettivo = styled.p`
   text-align: center;
+  color: white; //white;
 `;
 
 const ContainerTotaleObiettivo = styled.div`
