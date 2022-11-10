@@ -7,7 +7,7 @@ import {
   BoxProject,
   BoxText,
   TestoProgetto,
-} from "./ProjectStyled";
+} from "../project/ProjectStyled";
 import {
   BoxNFT,
   ButtonBuy,
@@ -27,7 +27,7 @@ import { Faq } from "../faq";
 import Carbon from "../media/carbon.png";
 import { Footer } from "../footer";
 
-const Project = () => {
+const Project2 = () => {
   const { chainId, account, activate, active, library, deactivate } =
     useWeb3React();
   const connect = async () => {
@@ -93,7 +93,7 @@ const Project = () => {
               }}
             >
               <TextNft>
-                CO2 credit Scambiabile
+                CO2 credit Singolo
                 <br />
               </TextNft>
             </div>
@@ -104,7 +104,7 @@ const Project = () => {
         </BoxNFT>
         <BoxText>
           <TitleSection style={{ textAlign: "left" }}>
-            Credito CO2 Scambiabile
+            Credito CO2 Uso Singolo
           </TitleSection>
           <TestoProgetto>
             L’unicità del bambù è rappresentata dall’estrema rapidità di
@@ -129,4 +129,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Project2;
