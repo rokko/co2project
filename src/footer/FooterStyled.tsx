@@ -18,8 +18,9 @@ const LeftFooter = styled.div`
 
 const RightFooter = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
+  align-items: center;
 `;
 export { ContainerFooter, LeftFooter, RightFooter };
