@@ -4,11 +4,11 @@ import { fadeInRight } from "react-animations";
 const ContainerObiettivo = styled.div`
   animation: 2s keyframes ${fadeInRight};
   border-radius: 20px;
-  width: 70%;
+  width: 80%;
   padding: 1rem;
-  font-size: 23px;
+  font-size: 10px;
   display: flex;
-  line-height: 3rem;
+  line-height: 1.25rem;
   flex-direction: column;
   -webkit-box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
   box-shadow: 1px 1px 17px 6px rgba(0, 0, 0, 0.39);
@@ -21,6 +21,7 @@ const ContainerObiettivo = styled.div`
 `;
 
 const TestoObiettivo = styled.p`
+  font-size: 18px;
   text-align: center;
   color: black; //white;
 `;
