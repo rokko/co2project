@@ -92,12 +92,11 @@ const Problemi = () => {
         <TitleSection>PROBLEMI</TitleSection>
         <ContainerImages>
           <Fade left>
-            <SingleImage>
+            <SingleImage style={{ flexDirection: "column" }}>
               <img
                 src={Sole}
                 style={{
-                  width: "500px",
-                  height: "350px",
+                  width: "300px",
                   borderRadius: "20px",
                 }}
               />
@@ -113,7 +112,14 @@ const Problemi = () => {
             </SingleImage>
           </Fade>
           <Fade right>
-            <SingleImage>
+            <SingleImage style={{ flexDirection: "column" }}>
+              <img
+                src={Deserto}
+                style={{
+                  width: "300px",
+                  borderRadius: "20px",
+                }}
+              />
               <BloccoTesto>
                 <TestoProblemi>
                   <TitoloProblemi>Impoverimento dei terreni </TitoloProblemi>
@@ -121,23 +127,14 @@ const Problemi = () => {
                   fino a desertificazione
                 </TestoProblemi>
               </BloccoTesto>
-              <img
-                src={Deserto}
-                style={{
-                  width: "500px",
-                  height: "350px",
-                  borderRadius: "20px",
-                }}
-              />
             </SingleImage>
           </Fade>
           <Fade left>
-            <SingleImage>
+            <SingleImage style={{ flexDirection: "column" }}>
               <img
                 src={Montagna}
                 style={{
-                  width: "500px",
-                  height: "350px",
+                  width: "300px",
                   borderRadius: "20px",
                 }}
               />
