@@ -52,12 +52,12 @@ const Project = () => {
 
         <SecondPartHeader>
           <Link style={{ textDecoration: "none" }} to={"/"}>
-            <p style={{ color: "black", fontSize: "25px", fontWeight: "500" }}>
+            <p style={{ color: "black", fontSize: "16px", fontWeight: "500" }}>
               Home
             </p>
           </Link>
           <Link style={{ textDecoration: "none" }} to={"/"}>
-            <p style={{ color: "black", fontSize: "25px", fontWeight: "500" }}>
+            <p style={{ color: "black", fontSize: "16px", fontWeight: "500" }}>
               Contattaci
             </p>
           </Link>
@@ -66,6 +66,7 @@ const Project = () => {
               whiteSpace: "nowrap",
               overflow: "hidden",
               textOverflow: "ellipsis",
+              fontSize: "16px",
             }}
             onClick={() => {
               account ? deactivate() : connect();
