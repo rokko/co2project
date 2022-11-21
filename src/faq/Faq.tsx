@@ -28,9 +28,10 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Abbiamo scelto di adottare questa tecnologia per migliorare
+              l'esperienza d'uso dei nostri clienti, con una gestione più
+              efficiente e una certificazione piu solida e inalterabile dei
+              nostri crediti CO2.
             </Typography>
           </AccordionDetails>
         </Accordion>

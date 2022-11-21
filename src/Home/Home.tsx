@@ -33,6 +33,7 @@ import SfondoPrimo from "../media/sfondoiniziale.png";
 import { SecondPartHeader } from "../project/ProjectStyled";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
+import Fade from "react-reveal/Fade";
 
 var Contract = require("web3-eth-contract");
 
@@ -146,7 +147,7 @@ const Home = () => {
               )}
             </SecondPartHeader>
           </ContainerTop>
-          <Pulse duration={4000}>
+          <Fade right duration={4000}>
             <ContainerTitle>
               <TitleHome>
                 Scopri, colleziona e<br />
@@ -160,7 +161,7 @@ const Home = () => {
                 sociale"
               </SubtitleText>
             </ContainerTitle>
-          </Pulse>
+          </Fade>
         </div>
         <Co2Listing />
         <TheMission />
@@ -286,7 +287,7 @@ const Home = () => {
               )}
             </SecondPartHeader>
           </ContainerTop>
-          <Pulse duration={4000}>
+          <Fade right duration={4000}>
             <ContainerTitle style={{ marginTop: "-10px" }}>
               <TitleHome style={{ fontSize: "50px" }}>
                 Scopri, colleziona e<br />
@@ -300,7 +301,7 @@ const Home = () => {
                 sociale"
               </SubtitleText>
             </ContainerTitle>
-          </Pulse>
+          </Fade>
         </div>
         <Co2Listing />
         <TheMission />
