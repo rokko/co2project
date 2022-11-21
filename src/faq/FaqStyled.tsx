@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TestoDomandaFaq = styled.p`
-  font-size: 28px;
+  font-size: 21px;
   font-weight: bold;
 `;
 
@@ -11,7 +11,7 @@ const TestoRispostaFaq = styled.p`
 
 const ContainerFaq = styled.div`
   width: 100%;
-  padding: 8rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
   text-align: left;

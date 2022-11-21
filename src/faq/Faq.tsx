@@ -47,9 +47,15 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Tra le diverse tecnolgie presenti attualmente sul mercato, abbiamo
+              selezione quella di Polygon MATIC, in quanto è quella che risulta
+              essere più completa su 3 punti:
+              <br />
+              -Prestazioni;
+              <br />
+              -Pubblico;
+              <br />
+              -Costi;
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -65,9 +71,15 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              L'utente ha la possibilità di acquistare due tipologie di crediti
+              CO2;
+              <br />
+              -Crediti ad uso singolo: in questo caso una volta acquistato/i,
+              l'utente non potrà trasferirli ad altri soggetti;
+              <br></br>-Crediti scambiali: in questo caso invece, una volta
+              acquistato/i, l'utente potrà scambiarli nel mercato secondario di
+              sua scelta (es. trasferimento diretto, vendita su Opensea o
+              altri…).
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -81,9 +93,32 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Per acquistare il/i tuo/i credito/i devi innanzitutto collegare il
+              tuo portafoglio MetaMask
+              <br />
+              1. Se non possiedi un portafoglio segui i passaggi elencati qui di
+              seguito, altrimenti passa al prossimo punto:
+              <br />
+              Vai a impostazioni {">"} Estensioni {">"} Nella barra di ricerca
+              digita "MetaMask" {">"} clicca su Aggiungi Estensione
+              <br />
+              Una volta aggiunta l'estensione procedi alla creazione del
+              portafoglio (ricorda di salvare esternamente la passphrase di 12
+              parole)
+              <br />
+              <br />
+              2.Clicca su "Connetti Portafoglio" per collegare il tuo
+              portafoglio all'app.
+              <br />
+              Dopo aver scelto la tipologia di credito desiderata, seleziona la
+              quantità di crediti CO2 da acquistare e procedere con la
+              transazione, cliccando su acquista.
+              <br />
+              Apparirà la finestra di MetaMask per controllare che il saldo sia
+              sufficiente e per permetterti di confermare la transazione.
+              <br />
+              Arrivato a questo punto avrai correttamente acquistato i tuoi
+              crediti CO2
             </Typography>
           </AccordionDetails>
         </Accordion>
