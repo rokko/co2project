@@ -89,7 +89,7 @@ const Home = () => {
                 <p
                   style={{
                     color: "black",
-                    fontSize: "25px",
+                    fontSize: "16px",
                     fontWeight: "500",
                   }}
                 >
@@ -100,7 +100,7 @@ const Home = () => {
                 <p
                   style={{
                     color: "black",
-                    fontSize: "25px",
+                    fontSize: "16px",
                     fontWeight: "500",
                   }}
                 >
@@ -111,7 +111,7 @@ const Home = () => {
                 <p
                   style={{
                     color: "black",
-                    fontSize: "25px",
+                    fontSize: "16px",
                     fontWeight: "500",
                   }}
                 >
@@ -122,7 +122,7 @@ const Home = () => {
                 <p
                   style={{
                     color: "black",
-                    fontSize: "25px",
+                    fontSize: "16px",
                     fontWeight: "500",
                   }}
                 >
@@ -130,7 +130,10 @@ const Home = () => {
                 </p>
               </a>
               {!account ? (
-                <ButtonMetamask onClick={() => connect()}>
+                <ButtonMetamask
+                  style={{ fontSize: "16px", width: 180, borderRadius: "5px" }}
+                  onClick={() => connect()}
+                >
                   Connetti Portafoglio
                 </ButtonMetamask>
               ) : (
@@ -139,6 +142,7 @@ const Home = () => {
                     whiteSpace: "nowrap",
                     overflow: "hidden",
                     textOverflow: "ellipsis",
+                    fontSize: "16px",
                   }}
                   onClick={() => deactivate()}
                 >

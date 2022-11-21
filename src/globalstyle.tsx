@@ -1,9 +1,12 @@
 import { createGlobalStyle } from "styled-components";
+import "../src/fonts/circularstd/CircularStd-Black.ttf";
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
   body {
     margin: 0;
-    font-family: Open-Sans, Helvetica, Sans-Serif, serif;
+    font-family:  'Circular Std', sans-serif;
     height: 100%;
   }
   *{
