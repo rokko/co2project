@@ -49,6 +49,8 @@ const BlueSpan = styled.span`
 `;
 
 const ButtonMetamask = styled.button`
+  cursor: pointer;
+
   background-color: #3075ff;
   border-radius: 10px;
   height: 50px;

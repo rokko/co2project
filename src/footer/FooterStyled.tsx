@@ -19,6 +19,7 @@ const LeftFooter = styled.div`
 `;
 
 const RightFooter = styled.div`
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-content: center;
