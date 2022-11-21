@@ -14,6 +14,8 @@ const LeftFooter = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const RightFooter = styled.div`

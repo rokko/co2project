@@ -8,13 +8,6 @@ const Footer = () => {
     return (
       <ContainerFooter id="footer">
         <LeftFooter>
-          <p style={{ fontSize: "22px" }}>Email</p>
-          <input
-            style={{ width: "300px", height: "40px", borderRadius: "20px" }}
-          ></input>
-        </LeftFooter>
-        <RightFooter>
-          <p style={{ fontSize: "40px", fontWeight: "bold" }}>BAMBOO 2.0 </p>
           <a
             href={
               "https://calendly.com/maxschipilliti/consulenze-percorso-di-affiancamento?month=2022-11"
@@ -22,6 +15,7 @@ const Footer = () => {
           >
             <button
               style={{
+                boxShadow: "1px 2px 19px 8px rgba(0, 0, 0, 0.24);",
                 backgroundColor: "#3075ff",
                 width: "20rem",
                 height: "2rem",
@@ -34,6 +28,13 @@ const Footer = () => {
               PRENOTA UNA CHIAMATA
             </button>
           </a>
+        </LeftFooter>
+        <RightFooter>
+          <p style={{ fontSize: "40px", fontWeight: "bold" }}>BAMBOO 2.0 </p>
+          <p style={{ fontSize: "22px" }}>Email</p>
+          <input
+            style={{ width: "300px", height: "40px", borderRadius: "20px" }}
+          ></input>
         </RightFooter>
       </ContainerFooter>
     );
