@@ -46,6 +46,7 @@ const ContainerTotaleProblemi = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-attachment: fixed;
 `;
 export {
   ContainerImages,

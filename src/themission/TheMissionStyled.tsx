@@ -27,7 +27,6 @@ const TestoObiettivo = styled.p`
 `;
 
 const ContainerTotaleObiettivo = styled.div`
-  border-radius: 20px;
   background-image: url("${SfondoObiettivo}");
   background-size: cover;
   height: 800px;
@@ -37,5 +36,6 @@ const ContainerTotaleObiettivo = styled.div`
   justify-content: center;
   -webkit-box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
   box-shadow: 1px 2px 19px 8px rgba(0, 0, 0, 0.24);
+  background-attachment: fixed;
 `;
 export { ContainerObiettivo, TestoObiettivo, ContainerTotaleObiettivo };

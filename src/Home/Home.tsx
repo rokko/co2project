@@ -34,6 +34,7 @@ import { SecondPartHeader } from "../project/ProjectStyled";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import Fade from "react-reveal/Fade";
+import { useParallax } from "react-scroll-parallax";
 
 var Contract = require("web3-eth-contract");
 
@@ -78,8 +79,7 @@ const Home = () => {
             flexDirection: "column",
             alignContent: "center",
             alignItems: "center",
-            borderBottomLeftRadius: "20px",
-            borderBottomRightRadius: "20px",
+            backgroundAttachment: "fixed",
           }}
         >
           <ContainerTop>
@@ -216,8 +216,6 @@ const Home = () => {
             flexDirection: "column",
             alignContent: "center",
             alignItems: "center",
-            borderBottomLeftRadius: "20px",
-            borderBottomRightRadius: "20px",
           }}
         >
           <ContainerTop style={{ display: "flex", flexDirection: "column" }}>

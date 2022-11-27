@@ -28,7 +28,6 @@ const ImpattoContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   padding: 5rem;
-  border-radius: 20px;
 `;
 
 const ContainerTotale = styled.div`

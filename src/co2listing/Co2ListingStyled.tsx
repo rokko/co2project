@@ -60,6 +60,7 @@ const ButtonBuy = styled.button`
 
 const ContainerCrediti = styled.div`
   margin-top: 10rem;
+  background-attachment: fixed;
 `;
 
 export {

@@ -30,7 +30,7 @@ const ContainerTotaleSoluzione = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  border-radius: 20px;
+  background-attachment: fixed;
 `;
 export {
   TestoSoluzione,

@@ -86,6 +86,7 @@ const Soluzione = () => {
             alignContent: "center",
             alignItems: "center",
             justifyContent: "center",
+            backgroundAttachment: "fixed",
           }}
         >
           <ContainerSoluzione style={{ width: "300px", borderRadius: "20px" }}>
