@@ -3,6 +3,7 @@ import "../src/fonts/circularstd/CircularStd-Black.ttf";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.cdnfonts.com/css/circular-std');
+html{scroll-behavior:smooth}
 
   body {
     margin: 0;
@@ -12,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
   }
-  
+
+
   
 `;
 
