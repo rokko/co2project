@@ -19,7 +19,7 @@ import Albero from "../media/albero.png";
 import { Link } from "react-router-dom";
 import { useWeb3React } from "@web3-react/core";
 import { connect } from "http2";
-import { mumbaiRete, injected } from "../wallet/wallet";
+import { mumbaiRete, injected, polygonRete } from "../wallet/wallet";
 import { ButtonMetamask, ContainerTop } from "../Home/HomeStyled";
 import Logo from "../media/logo.png";
 import { Crediti } from "../crediti";
@@ -34,12 +34,12 @@ const Project2 = () => {
     try {
       await window.ethereum.request({
         method: "wallet_switchEthereumChain",
-        params: [mumbaiRete],
+        params: [polygonRete],
       });
     } catch (switchError) {
       await window.ethereum.request({
         method: "wallet_addEthereumChain",
-        params: [mumbaiRete],
+        params: [polygonRete],
       });
     }
     await activate(injected);

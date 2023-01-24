@@ -10,7 +10,7 @@ import {
 } from "./Co2ListingStyled";
 import Albero from "../media/albero.png";
 import { Link } from "react-router-dom";
-import ABI from "../wallet/nuovo.json";
+import ABI from "../wallet/official.json";
 import {
   co2contract,
   handleEthereum,

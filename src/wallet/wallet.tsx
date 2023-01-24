@@ -3,7 +3,7 @@ import { useWeb3React } from "@web3-react/core";
 export const injected = new InjectedConnector({
   supportedChainIds: [1, 3, 4, 137, 80001],
 });
-export const co2contract = "0x81Ae0Db7F7684d0CFbE5c470b1dF856eC4072867";
+export const co2contract = "0x5420Ab2feebaa5C7F8e70cbCF8Df12bBf73De42e";
 
 export const mumbaiRete = {
   chainId: `0x${Number(80001).toString(16)}`,

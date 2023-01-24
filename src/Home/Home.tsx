@@ -8,7 +8,7 @@ import {
   SubtitleText,
   TitleHome,
 } from "./HomeStyled";
-import ABI from "../wallet/nuovo.json";
+import ABI from "../wallet/official.json";
 import Pulse from "react-reveal/Pulse";
 
 import Logo from "../media/logo.png";
@@ -55,12 +55,12 @@ const Home = () => {
     try {
       await window.ethereum.request({
         method: "wallet_switchEthereumChain",
-        params: [mumbaiRete],
+        params: [polygonRete],
       });
     } catch (switchError) {
       await window.ethereum.request({
         method: "wallet_addEthereumChain",
-        params: [mumbaiRete],
+        params: [polygonRete],
       });
     }
     await activate(injected);
