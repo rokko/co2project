@@ -13,9 +13,10 @@ function App() {
   return<>
     <GlobalStyle/>
     <Web3ReactProvider getLibrary={getLibrary}>
-    <RouteProvider>
+      {/*<RouteProvider>
 
-    </RouteProvider>
+    </RouteProvider>*/}
+      <p>Sito non disponibile</p>
     </Web3ReactProvider>
   </>;
 }
